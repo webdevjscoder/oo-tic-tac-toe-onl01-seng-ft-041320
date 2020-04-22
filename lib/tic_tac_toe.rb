@@ -2,7 +2,7 @@ require 'pry'
 
 class TicTacToe
   
-  WIN_COMBINATIONS =
+  WIN_COMBINATIONS =[
   [0,1,2],
   [3,4,5],
   [6,7,8],
@@ -11,7 +11,7 @@ class TicTacToe
   [1,4,7],
   [2,5,8],
   [6,4,2]
-  
+  ]
   def initialize(board = nil)
     # this creates a new empty array with 9 empty strings.
     @board = board || Array.new(9, " ")
