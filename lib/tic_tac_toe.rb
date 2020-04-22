@@ -12,6 +12,7 @@ class TicTacToe
   [2,5,8],
   [6,4,2]
   ]
+  
   def initialize(board = nil)
     # this creates a new empty array with 9 empty strings.
     @board = board || Array.new(9, " ")
