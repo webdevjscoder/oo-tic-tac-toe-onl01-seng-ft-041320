@@ -81,7 +81,7 @@ class TicTacToe
   end
   
   def draw?
-    win? ? false : full? true 
+    win? ? false : full? true : false
   end
   
   def over?
