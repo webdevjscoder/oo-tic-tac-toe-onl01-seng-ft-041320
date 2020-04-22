@@ -93,6 +93,7 @@ class TicTacToe
     if !win
       nil
     else
+      board
   end
   
   def play
