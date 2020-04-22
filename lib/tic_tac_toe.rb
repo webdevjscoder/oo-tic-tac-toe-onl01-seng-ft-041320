@@ -56,7 +56,8 @@ class TicTacToe
   
   def turn_count
    turn_count = 0
-   if 
+   @board.each do |slot|
+     if slot 
   end
   
   def current_player
