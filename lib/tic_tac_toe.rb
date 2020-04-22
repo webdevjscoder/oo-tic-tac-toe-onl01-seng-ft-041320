@@ -69,7 +69,8 @@ class TicTacToe
   end
   
   def won?
-    game_over = WIN_COMBINATIONS
+    game_over = WIN_COMBINATIONS.detect do |comb|
+      @board[comb[0]]
   end
   
   def full?
