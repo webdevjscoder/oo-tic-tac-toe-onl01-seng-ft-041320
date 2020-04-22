@@ -94,6 +94,7 @@ class TicTacToe
       nil
     else
       @board[win[0]]
+    end
   end
   
   def play
