@@ -69,7 +69,7 @@ class TicTacToe
   end
   
   def won?
-    
+    game_over = WIN_COMBINATIONS
   end
   
   def full?
