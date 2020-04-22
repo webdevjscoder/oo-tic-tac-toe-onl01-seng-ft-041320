@@ -91,6 +91,8 @@ class TicTacToe
   def winner
     win = won?
     if !win
+      nil
+    else
   end
   
   def play
